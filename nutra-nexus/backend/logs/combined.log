@@ -1,0 +1,388 @@
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T14:51:54.760Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T14:51:54.769Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T14:51:54.769Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T14:51:54.770Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T14:51:54.770Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T14:51:54.770Z"}
+[32minfo[39m: ::ffff:142.250.189.209 - - [26/Jul/2025:14:52:23 +0000] "GET /health HTTP/1.1" 200 54 "-" "curl/8.7.1" {"timestamp":"2025-07-26T14:52:23.286Z"}
+[32minfo[39m: Order created: NN681890325 {"customerEmail":"soumith.test@gmail.com","orderNumber":"NN681890325","timestamp":"2025-07-26T14:54:41.904Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:54:41 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:54:41.906Z"}
+[31merror[39m: Error occurred: {"error":"Unexpected token o in JSON at position 1","ip":"::ffff:172.217.12.99","method":"POST","stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at <anonymous> (/app/src/routes/stripe.ts:47:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T14:54:41.918Z","url":"/api/stripe/create-checkout-session","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:54:41 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 500 314 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:54:41.918Z"}
+[32minfo[39m: Order created: NN723294714 {"customerEmail":"soumith.test@gmail.com","orderNumber":"NN723294714","timestamp":"2025-07-26T14:55:23.311Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:55:23 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:55:23.312Z"}
+[31merror[39m: Error occurred: {"error":"Unexpected token o in JSON at position 1","ip":"::ffff:172.217.12.99","method":"POST","stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at <anonymous> (/app/src/routes/stripe.ts:47:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T14:55:23.324Z","url":"/api/stripe/create-checkout-session","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:55:23 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 500 314 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:55:23.326Z"}
+[32minfo[39m: Order created: NN725051295 {"customerEmail":"soumith.test@gmail.com","orderNumber":"NN725051295","timestamp":"2025-07-26T14:55:25.055Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:55:25 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:55:25.057Z"}
+[31merror[39m: Error occurred: {"error":"Unexpected token o in JSON at position 1","ip":"::ffff:172.217.12.99","method":"POST","stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at <anonymous> (/app/src/routes/stripe.ts:47:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T14:55:25.064Z","url":"/api/stripe/create-checkout-session","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:55:25 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 500 314 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:55:25.064Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T14:56:33.104Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T14:56:33.109Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T14:56:33.109Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T14:56:33.109Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T14:56:33.110Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T14:56:33.110Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T14:56:35.970Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T14:56:35.974Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T14:56:35.974Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T14:56:35.975Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T14:56:35.975Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T14:56:35.975Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:56:56 +0000] "POST /health HTTP/1.1" 404 27 "-" "curl/8.7.1" {"timestamp":"2025-07-26T14:56:56.793Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:57:05 +0000] "GET /health HTTP/1.1" 200 54 "-" "curl/8.7.1" {"timestamp":"2025-07-26T14:57:05.553Z"}
+[32minfo[39m: Order created: NN872220421 {"customerEmail":"test@gmail.com","orderNumber":"NN872220421","timestamp":"2025-07-26T14:57:52.232Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:57:52 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:57:52.233Z"}
+[31merror[39m: Error occurred: {"error":"Invalid API Key provided: sk_test_****************here","ip":"::ffff:172.217.12.99","method":"POST","stack":"Error: Invalid API Key provided: sk_test_****************here\n    at res.toJSON.then.Error_js_1.StripeAPIError.message (/app/node_modules/stripe/cjs/RequestSender.js:96:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T14:57:52.416Z","url":"/api/stripe/create-checkout-session","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:14:57:52 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 401 361 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T14:57:52.417Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:02:31.442Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:02:31.449Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:02:31.449Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:02:31.450Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:02:31.450Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:02:31.450Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:04:10 +0000] "GET /health HTTP/1.1" 200 54 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:04:10.315Z"}
+[32minfo[39m: Order created: NN325357231 {"customerEmail":"test@gmail.com","orderNumber":"NN325357231","timestamp":"2025-07-26T15:05:25.376Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:05:25 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:05:25.378Z"}
+[32minfo[39m: Stripe checkout session created for order: NN325357231 {"orderNumber":"NN325357231","sessionId":"cs_test_a1rbIlfFN0fnY49CLzlP5oZkCzfCKLXzu1VunBfzsOMjJvjtSqJ7Lj4BG4","timestamp":"2025-07-26T15:05:25.927Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:05:25 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 350 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:05:25.928Z"}
+[32minfo[39m: Stripe checkout session created for order: NN325357231 {"orderNumber":"NN325357231","sessionId":"cs_test_a19dlNmOseI07BOYc3yawKPOFUYJK7b1V7rfCNSlBkVE81RZWziYxrzoNl","timestamp":"2025-07-26T15:06:46.413Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:06:46 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 350 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:06:46.415Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:07:06.732Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:07:06.736Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:07:06.736Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:07:06.737Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:07:06.737Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:07:06.737Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:07:10.352Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:07:10.356Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:07:10.356Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:07:10.357Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:07:10.357Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:07:10.358Z"}
+[32minfo[39m: Stripe checkout session created for order: NN325357231 {"orderNumber":"NN325357231","sessionId":"cs_test_a11m2boyL2eiDgEz50s6Y2KAQvQk8tC9cNon165WsobirjCBpcCQy2wFaU","timestamp":"2025-07-26T15:07:12.422Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:07:12 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:07:12.427Z"}
+[32minfo[39m: Order created: NN465528409 {"customerEmail":"test@gmail.com","orderNumber":"NN465528409","timestamp":"2025-07-26T15:07:45.545Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:07:45 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:07:45.546Z"}
+[32minfo[39m: Stripe checkout session created for order: NN465528409 {"orderNumber":"NN465528409","sessionId":"cs_test_a1FUpKWZUh4d5h7fVpK4PWDIeuEjEqLGTfaTjvZ68AAhAKCguc03Qi6UPo","timestamp":"2025-07-26T15:07:45.861Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:07:45 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:07:45.863Z"}
+[31merror[39m: Error occurred: {"error":"Unexpected token o in JSON at position 1","ip":"::ffff:172.217.12.99","method":"GET","stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at <anonymous> (/app/src/routes/orders.ts:107:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T15:08:08.184Z","url":"/api/orders/NN465528409?session_id=cs_test_a1FUpKWZUh4d5h7fVpK4PWDIeuEjEqLGTfaTjvZ68AAhAKCguc03Qi6UPo","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:08:08 +0000] "GET /api/orders/NN465528409?session_id=cs_test_a1FUpKWZUh4d5h7fVpK4PWDIeuEjEqLGTfaTjvZ68AAhAKCguc03Qi6UPo HTTP/1.1" 500 315 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:08:08.185Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:10:52 +0000] "GET /health HTTP/1.1" 200 54 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:10:52.628Z"}
+[31merror[39m: Error occurred: {"error":"Order not found","ip":"::ffff:172.217.12.99","method":"GET","stack":"Error: Order not found\n    at createError (/app/src/middleware/errorHandler.ts:39:17)\n    at <anonymous> (/app/src/routes/orders.ts:101:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T15:10:57.339Z","url":"/api/orders/NN123456789","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:10:57 +0000] "GET /api/orders/NN123456789 HTTP/1.1" 404 290 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:10:57.340Z"}
+[32minfo[39m: Order created: NN686551227 {"customerEmail":"test@example.com","orderNumber":"NN686551227","timestamp":"2025-07-26T15:11:26.555Z","totalAmount":2499}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:11:26 +0000] "POST /api/orders HTTP/1.1" 201 111 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:11:26.555Z"}
+[31merror[39m: Error occurred: {"error":"Unexpected token o in JSON at position 1","ip":"::ffff:172.217.12.99","method":"GET","stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at <anonymous> (/app/src/routes/orders.ts:107:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-07-26T15:11:31.892Z","url":"/api/orders/NN686551227","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:11:31 +0000] "GET /api/orders/NN686551227 HTTP/1.1" 500 315 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:11:31.892Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:12:02.276Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:12:02.280Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:12:02.280Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:12:02.280Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:12:02.281Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:12:02.281Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:12:06 +0000] "GET /api/orders/NN686551227 HTTP/1.1" 200 377 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:12:06.099Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:13:40.199Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:13:40.203Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:13:40.203Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:13:40.204Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:13:40.204Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:13:40.204Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:16:30.896Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:16:30.900Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:16:30.900Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:16:30.901Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:16:30.901Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:16:30.902Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:16:32.448Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:16:32.451Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:16:32.451Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:16:32.452Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:16:32.452Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:16:32.452Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:16:42.356Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:16:42.360Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:16:42.360Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:16:42.361Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:16:42.361Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:16:42.361Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:16:49 +0000] "GET /api/orders/NN686551227 HTTP/1.1" 200 377 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:16:49.393Z"}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:18:53 +0000] "GET /api/orders/NN686551227 HTTP/1.1" 200 377 "-" "node" {"timestamp":"2025-07-26T15:18:53.793Z"}
+[32minfo[39m: Order created: NN250504930 {"customerEmail":"test@example.com","orderNumber":"NN250504930","timestamp":"2025-07-26T15:20:50.510Z","totalAmount":2499}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:20:50 +0000] "POST /api/orders HTTP/1.1" 201 111 "-" "node" {"timestamp":"2025-07-26T15:20:50.511Z"}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:20:59 +0000] "GET /api/orders/NN250504930 HTTP/1.1" 200 377 "-" "node" {"timestamp":"2025-07-26T15:20:59.444Z"}
+[32minfo[39m: Stripe checkout session created for order: NN250504930 {"orderNumber":"NN250504930","sessionId":"cs_test_a1qEhHiPHp54JplTdaV2yPv5xNBG3CdJcxnM6y7QMo2MC5Fm9NXMtcEY4z","timestamp":"2025-07-26T15:21:09.760Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:21:09 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:21:09.761Z"}
+[32minfo[39m: Order created: NN330412639 {"customerEmail":"test@gmail.com","orderNumber":"NN330412639","timestamp":"2025-07-26T15:22:10.428Z","totalAmount":2998}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:22:10 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:22:10.429Z"}
+[32minfo[39m: Stripe checkout session created for order: NN330412639 {"orderNumber":"NN330412639","sessionId":"cs_test_a1gIxqWkaQnn57LVBCBmK8RXIdSRxjeXZLUwspY0UyfG3rJA8qqXLrR5TN","timestamp":"2025-07-26T15:22:10.792Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:22:10 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:22:10.794Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:22:18 +0000] "GET /api/orders/NN330412639?session_id=cs_test_a1gIxqWkaQnn57LVBCBmK8RXIdSRxjeXZLUwspY0UyfG3rJA8qqXLrR5TN HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:22:18.943Z"}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:23:21 +0000] "GET /api/orders/NN250504930 HTTP/1.1" 200 377 "-" "node" {"timestamp":"2025-07-26T15:23:21.318Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:23:32 +0000] "GET /api/orders/NN330412639?session_id=cs_test_a1gIxqWkaQnn57LVBCBmK8RXIdSRxjeXZLUwspY0UyfG3rJA8qqXLrR5TN HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:23:32.204Z"}
+[32minfo[39m: Order created: NN511354772 {"customerEmail":"john@example.com","orderNumber":"NN511354772","timestamp":"2025-07-26T15:25:11.360Z","totalAmount":6998}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:25:11 +0000] "POST /api/orders HTTP/1.1" 201 111 "-" "node" {"timestamp":"2025-07-26T15:25:11.361Z"}
+[32minfo[39m: ::ffff:172.18.0.4 - - [26/Jul/2025:15:25:19 +0000] "GET /api/orders/NN511354772 HTTP/1.1" 200 376 "-" "node" {"timestamp":"2025-07-26T15:25:19.896Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:26:13 +0000] "GET /api/orders/NN330412639 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:26:13.526Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:26:13 +0000] "GET /api/orders/NN330412639 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:26:13.526Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:26:28 +0000] "GET /api/orders/NN330412639 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:26:28.316Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:26:36 +0000] "GET /api/orders/NN330412639?session_id=cs_test_a1gIxqWkaQnn57LVBCBmK8RXIdSRxjeXZLUwspY0UyfG3rJA8qqXLrR5TN HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:26:36.363Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:26:36 +0000] "GET /api/orders/NN330412639?session_id=cs_test_a1gIxqWkaQnn57LVBCBmK8RXIdSRxjeXZLUwspY0UyfG3rJA8qqXLrR5TN HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:26:36.364Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:31:07.157Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:31:07.162Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:31:07.162Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:31:07.163Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:31:07.164Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:31:07.164Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:31:08.993Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:31:08.997Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:31:08.997Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:31:08.998Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:31:08.998Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:31:08.998Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:31:19.460Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:31:19.465Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:31:19.465Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:31:19.466Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:31:19.466Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:31:19.466Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:31:28.817Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:31:28.821Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:31:28.821Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:31:28.822Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:31:28.822Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:31:28.822Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:31:34.741Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:31:34.745Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:31:34.745Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:31:34.746Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:31:34.746Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:31:34.746Z"}
+[32minfo[39m: Order created: NN905498290 {"customerEmail":"test@example.com","orderNumber":"NN905498290","timestamp":"2025-07-26T15:31:45.501Z","totalAmount":1699}
+[32minfo[39m: ::ffff:172.18.0.3 - - [26/Jul/2025:15:31:45 +0000] "POST /api/orders HTTP/1.1" 201 111 "-" "node" {"timestamp":"2025-07-26T15:31:45.503Z"}
+[32minfo[39m: Stripe checkout session created for order: NN511354772 {"orderNumber":"NN511354772","sessionId":"cs_test_a1HDZQofKWgC9D09SeoQprrDUeoJE2i1GS7JON8qGw0zIonrlYz39jWkrr","timestamp":"2025-07-26T15:31:47.523Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:31:47 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:31:47.525Z"}
+[32minfo[39m: Stripe checkout session created for order: NN905498290 {"orderNumber":"NN905498290","sessionId":"cs_test_a1LOyhYMMhUpYYvucTwSZCyxSBwiYKrMOhsZ3wQe6PoVU4b2C0AuLdWyBb","timestamp":"2025-07-26T15:31:56.587Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:31:56 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:31:56.588Z"}
+[32minfo[39m: Order created: NN981499578 {"customerEmail":"test@gmail.com","orderNumber":"NN981499578","timestamp":"2025-07-26T15:33:01.520Z","totalAmount":4497}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:33:01 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:33:01.522Z"}
+[32minfo[39m: Stripe checkout session created for order: NN981499578 {"orderNumber":"NN981499578","sessionId":"cs_test_a1AAI15bDcdQDOr8aFo7UB25QnDIaCHcRxQTJVr68OMj2m41btv2Pf8DTn","timestamp":"2025-07-26T15:33:01.915Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:33:01 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:33:01.916Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:33:21 +0000] "GET /api/orders/NN981499578?session_id=cs_test_a1AAI15bDcdQDOr8aFo7UB25QnDIaCHcRxQTJVr68OMj2m41btv2Pf8DTn HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:33:21.680Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:33:32 +0000] "GET /api/orders/NN981499578 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:33:32.441Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:33:32 +0000] "GET /api/orders/NN981499578 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:33:32.442Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:38:17.121Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:38:17.127Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:38:17.127Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:38:17.128Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:38:17.128Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:38:17.128Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:38:22.704Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:38:22.708Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:38:22.708Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:38:22.709Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:38:22.709Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:38:22.709Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:38:29 +0000] "GET /api/merchant/test HTTP/1.1" 200 91 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:38:29.922Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:39:37.536Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:39:37.543Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:39:37.543Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:39:37.544Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:39:37.544Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:39:37.544Z"}
+[32minfo[39m: Merchant login successful {"timestamp":"2025-07-26T15:39:44.014Z","username":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:39:44 +0000] "POST /api/merchant/login HTTP/1.1" 200 333 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:39:44.017Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:40:23.243Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:40:23.248Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:40:23.248Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:40:23.249Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:40:23.249Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:40:23.250Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:40:34.895Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:40:34.899Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:40:34.899Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:40:34.900Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:40:34.900Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:40:34.900Z"}
+[32minfo[39m: Merchant login successful {"timestamp":"2025-07-26T15:40:41.478Z","username":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:40:41 +0000] "POST /api/merchant/login HTTP/1.1" 200 333 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:40:41.482Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:40:50 +0000] "GET /api/merchant/orders?limit=5 HTTP/1.1" 200 2098 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:40:50.750Z"}
+[31merror[39m: Error occurred: {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"orderNumber\"\n    ],\n    \"message\": \"Required\"\n  }\n]","ip":"::ffff:172.217.12.99","method":"PUT","stack":"ZodError: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"orderNumber\"\n    ],\n    \"message\": \"Required\"\n  }\n]\n    at get error [as error] (/app/node_modules/zod/v3/types.cjs:45:31)\n    at ZodObject.parse (/app/node_modules/zod/v3/types.cjs:120:22)\n    at <anonymous> (/app/src/routes/merchant.ts:168:64)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at verifyMerchantToken (/app/src/routes/merchant.ts:59:5)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2025-07-26T15:40:59.255Z","url":"/api/merchant/orders/NN905498290/status","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:40:59 +0000] "PUT /api/merchant/orders/NN905498290/status HTTP/1.1" 500 1198 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:40:59.256Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:01 +0000] "GET /api/merchant/stats HTTP/1.1" 200 1592 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:01.593Z"}
+[31merror[39m: Error occurred: {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"orderNumber\"\n    ],\n    \"message\": \"Required\"\n  }\n]","ip":"::ffff:172.217.12.99","method":"PUT","stack":"ZodError: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"orderNumber\"\n    ],\n    \"message\": \"Required\"\n  }\n]\n    at get error [as error] (/app/node_modules/zod/v3/types.cjs:45:31)\n    at ZodObject.parse (/app/node_modules/zod/v3/types.cjs:120:22)\n    at <anonymous> (/app/src/routes/merchant.ts:168:64)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at verifyMerchantToken (/app/src/routes/merchant.ts:59:5)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2025-07-26T15:41:11.948Z","url":"/api/merchant/orders/NN905498290/status","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:11 +0000] "PUT /api/merchant/orders/NN905498290/status HTTP/1.1" 500 1198 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:11.949Z"}
+[31merror[39m: Error occurred: {"error":"Invalid credentials","ip":"::ffff:172.217.12.99","method":"POST","stack":"Error: Invalid credentials\n    at createError (/app/src/middleware/errorHandler.ts:39:17)\n    at <anonymous> (/app/src/routes/merchant.ts:84:13)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)\n    at /app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/app/node_modules/express/lib/router/index.js:175:3)","timestamp":"2025-07-26T15:41:14.394Z","url":"/api/merchant/login","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:14 +0000] "POST /api/merchant/login HTTP/1.1" 401 843 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:14.395Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:41:26.203Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:41:26.206Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:41:26.207Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:41:26.207Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:41:26.207Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:41:26.208Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:28 +0000] "GET /api/merchant/orders HTTP/1.1" 401 52 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:28.045Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T15:41:35.826Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T15:41:35.830Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T15:41:35.830Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T15:41:35.831Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T15:41:35.831Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T15:41:35.831Z"}
+[31merror[39m: Error occurred: {"error":"column \"tracking_number\" of relation \"orders\" does not exist","ip":"::ffff:172.217.12.99","method":"PUT","stack":"error: column \"tracking_number\" of relation \"orders\" does not exist\n    at /app/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at dbQuery (/app/src/database/init.ts:20:20)\n    at <anonymous> (/app/src/routes/merchant.ts:195:5)","timestamp":"2025-07-26T15:41:37.171Z","url":"/api/merchant/orders/NN905498290/status","userAgent":"curl/8.7.1"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:37 +0000] "PUT /api/merchant/orders/NN905498290/status HTTP/1.1" 500 425 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:37.174Z"}
+[32minfo[39m: Order status updated {"newStatus":"processing","oldStatus":"pending","orderNumber":"NN905498290","timestamp":"2025-07-26T15:41:44.894Z","updatedBy":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:44 +0000] "PUT /api/merchant/orders/NN905498290/status HTTP/1.1" 200 121 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:44.895Z"}
+[32minfo[39m: Order status updated {"newStatus":"shipped","oldStatus":"pending","orderNumber":"NN511354772","timestamp":"2025-07-26T15:41:54.911Z","trackingNumber":"TRK987654321","updatedBy":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:54 +0000] "PUT /api/merchant/orders/NN511354772/status HTTP/1.1" 200 150 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:54.912Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:41:56 +0000] "GET /api/merchant/orders?status=processing&limit=2 HTTP/1.1" 200 513 "-" "curl/8.7.1" {"timestamp":"2025-07-26T15:41:56.417Z"}
+[32minfo[39m: Merchant login successful {"timestamp":"2025-07-26T15:48:14.359Z","username":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:14 +0000] "POST /api/merchant/login HTTP/1.1" 200 333 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:14.360Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:14 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:14.847Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:14 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:14.847Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:29 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:29.876Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:29 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:29.878Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:43 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:43.810Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:48:43 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:48:43.811Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:50:36 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:50:36.672Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:50:36 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:50:36.673Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:50:58 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:50:58.808Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:50:58 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:50:58.811Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:51:00 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:51:00.378Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:51:00 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:51:00.379Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:51:50 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:51:50.557Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:18 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:18.065Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:18 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:18.074Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:41 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:41.001Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:41 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:41.002Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:41 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:41.817Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:41 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:41.819Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:50 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:50.952Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:52:50 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:52:50.953Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:05 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:05.052Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:05 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:05.052Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:41 +0000] "GET /api/merchant/orders?page=1&limit=10&status=pending HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:41.143Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:42 +0000] "GET /api/merchant/orders?page=1&limit=10&status=confirmed HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:42.872Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:45 +0000] "GET /api/merchant/orders?page=1&limit=10&status=processing HTTP/1.1" 200 514 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:45.146Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:46 +0000] "GET /api/merchant/orders?page=1&limit=10&status=shipped HTTP/1.1" 200 472 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:46.987Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:48 +0000] "GET /api/merchant/orders?page=1&limit=10&status=delivered HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:48.859Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:50 +0000] "GET /api/merchant/orders?page=1&limit=10&status=cancelled HTTP/1.1" 200 88 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:50.827Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:15:53:52 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T15:53:52.478Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:00:30 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:00:30.309Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:00:30 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:00:30.310Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:01:34.534Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:01:34.546Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:01:34.546Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:01:34.547Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:01:34.547Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:01:34.547Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:01:45.145Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:01:45.150Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:01:45.150Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:01:45.151Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:01:45.151Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:01:45.151Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:01:46.693Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:01:46.696Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:01:46.697Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:01:46.697Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:01:46.697Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:01:46.698Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:01:48.205Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:01:48.208Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:01:48.208Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:01:48.209Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:01:48.209Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:01:48.209Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:01:49.873Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:01:49.878Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:01:49.878Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:01:49.879Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:01:49.879Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:01:49.879Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:03:13.430Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:03:13.434Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:03:13.434Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:03:13.435Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:03:13.435Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:03:13.435Z"}
+[32minfo[39m: Merchant login successful {"timestamp":"2025-07-26T16:03:48.324Z","username":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:03:48 +0000] "POST /api/merchant/login HTTP/1.1" 200 333 "-" "curl/8.7.1" {"timestamp":"2025-07-26T16:03:48.327Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:03:48 +0000] "GET /api/merchant/refunds HTTP/1.1" 200 1004 "-" "curl/8.7.1" {"timestamp":"2025-07-26T16:03:48.337Z"}
+[32minfo[39m: Merchant login successful {"timestamp":"2025-07-26T16:03:51.951Z","username":"admin"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:03:51 +0000] "POST /api/merchant/login HTTP/1.1" 200 333 "-" "curl/8.7.1" {"timestamp":"2025-07-26T16:03:51.953Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:03:51 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 200 1020 "-" "curl/8.7.1" {"timestamp":"2025-07-26T16:03:51.980Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:02 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 200 1020 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:02.045Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:05 +0000] "GET /api/merchant/refunds?page=1&limit=20 HTTP/1.1" 200 1004 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:05.555Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:05 +0000] "GET /api/merchant/refunds?page=1&limit=20 HTTP/1.1" 200 1004 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:05.557Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:06 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:06.543Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:06 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:06.552Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:16 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:16.871Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:16 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:16.872Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:21 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:21.943Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:21 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:21.943Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:28 +0000] "GET /api/merchant/orders?page=1&limit=10&status=delivered HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:28.777Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:31 +0000] "GET /api/merchant/orders?page=1&limit=10&status=pending HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:31.042Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:32 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:32.524Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:35 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:35.650Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:06:35 +0000] "GET /api/merchant/stats HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:06:35.651Z"}
+[32minfo[39m: Order created: NN052324270 {"customerEmail":"test@email.com","orderNumber":"NN052324270","timestamp":"2025-07-26T16:07:32.339Z","totalAmount":4497}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:07:32 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:07:32.340Z"}
+[32minfo[39m: Stripe checkout session created for order: NN052324270 {"orderNumber":"NN052324270","sessionId":"cs_test_a19yPVlYlgTUmqnxojs27kc7kyWa1q7XzNdk3H3N5loRwm881ZLjUPJiJu","timestamp":"2025-07-26T16:07:32.850Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:07:32 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:07:32.851Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:07:57 +0000] "GET /api/orders/NN052324270?session_id=cs_test_a19yPVlYlgTUmqnxojs27kc7kyWa1q7XzNdk3H3N5loRwm881ZLjUPJiJu HTTP/1.1" 200 402 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:07:57.595Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:08:05 +0000] "GET /api/orders/NN052324270 HTTP/1.1" 200 402 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:08:05.080Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:08:05 +0000] "GET /api/orders/NN052324270 HTTP/1.1" 200 402 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:08:05.087Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:08:47 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:08:47.027Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:08:47 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:08:47.027Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:12:01.059Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:12:01.067Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:12:01.067Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:12:01.068Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:12:01.068Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:12:01.068Z"}
+[32minfo[39m: Order created: NN405223402 {"customerEmail":"vijay@email.com","orderNumber":"NN405223402","timestamp":"2025-07-26T16:13:25.234Z","totalAmount":3398}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:13:25 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:13:25.237Z"}
+[32minfo[39m: Stripe checkout session created for order: NN405223402 {"orderNumber":"NN405223402","sessionId":"cs_test_a1d5oKI8bQecvjU6BCxIFUy8QKKrXLxZFozSLyafdgaihCZfDDv5jVMmZx","timestamp":"2025-07-26T16:13:25.730Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:13:25 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:13:25.732Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:13:43 +0000] "GET /api/orders/NN405223402?session_id=cs_test_a1d5oKI8bQecvjU6BCxIFUy8QKKrXLxZFozSLyafdgaihCZfDDv5jVMmZx HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:13:43.331Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:13:54 +0000] "GET /api/orders/NN405223402 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:13:54.380Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:13:54 +0000] "GET /api/orders/NN405223402 HTTP/1.1" 200 400 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:13:54.389Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:08 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:08.180Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:08 +0000] "GET /api/merchant/stats HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:08.180Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:12 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:12.784Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:12 +0000] "GET /api/merchant/orders?page=1&limit=10 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:12.785Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:17 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 200 1019 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:17.244Z"}
+[32minfo[39m: ::ffff:172.217.12.99 - - [26/Jul/2025:16:14:17 +0000] "GET /api/merchant/analytics?dateRange=7days HTTP/1.1" 200 1019 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" {"timestamp":"2025-07-26T16:14:17.246Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:17:19.054Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:17:19.060Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:17:19.060Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:17:19.061Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:17:19.061Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:17:19.061Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-26T16:20:12.230Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-26T16:20:12.235Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-26T16:20:12.235Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-26T16:20:12.236Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-26T16:20:12.236Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-26T16:20:12.236Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-27T09:16:52.160Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-27T09:16:52.219Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-27T09:16:52.220Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-27T09:16:52.223Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-27T09:16:52.223Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-27T09:16:52.224Z"}
+[32minfo[39m: Database connection established successfully {"timestamp":"2025-07-27T09:19:50.191Z"}
+[32minfo[39m: Database tables created successfully {"timestamp":"2025-07-27T09:19:50.207Z"}
+[32minfo[39m: Database initialized successfully {"timestamp":"2025-07-27T09:19:50.207Z"}
+[32minfo[39m: Server running on port 8000 {"timestamp":"2025-07-27T09:19:50.210Z"}
+[32minfo[39m: Environment: development {"timestamp":"2025-07-27T09:19:50.210Z"}
+[32minfo[39m: Frontend URL: http://localhost:3000 {"timestamp":"2025-07-27T09:19:50.211Z"}
+[32minfo[39m: Order created: NN525723838 {"customerEmail":"vjaysunny@gmail.com","orderNumber":"NN525723838","timestamp":"2025-07-27T09:28:45.749Z","totalAmount":1499}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:28:45 +0000] "POST /api/orders HTTP/1.1" 201 111 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:28:45.753Z"}
+[32minfo[39m: Stripe checkout session created for order: NN525723838 {"orderNumber":"NN525723838","sessionId":"cs_test_a1FnaKw4sANNagxNU1zi9W1zgUf5pKZfatyIHbCUvfRfqZtwTQPdCjhhPr","timestamp":"2025-07-27T09:28:46.549Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:28:46 +0000] "POST /api/stripe/create-checkout-session HTTP/1.1" 200 374 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:28:46.550Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:30:49 +0000] "GET /api/orders/NN525723838?session_id=cs_test_a1FnaKw4sANNagxNU1zi9W1zgUf5pKZfatyIHbCUvfRfqZtwTQPdCjhhPr HTTP/1.1" 200 406 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:30:49.783Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:31:07 +0000] "GET /api/orders/NN525723838 HTTP/1.1" 200 406 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:31:07.958Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:31:07 +0000] "GET /api/orders/NN525723838 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:31:07.968Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:31:43 +0000] "GET /api/orders/NN525723838 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:31:43.179Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:31:59 +0000] "GET /api/orders/NN525723838 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:31:59.505Z"}
+[32minfo[39m: ::ffff:172.18.0.1 - - [27/Jul/2025:09:31:59 +0000] "GET /api/orders/NN525723838 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"timestamp":"2025-07-27T09:31:59.511Z"}
